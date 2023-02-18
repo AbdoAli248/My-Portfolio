@@ -58,7 +58,7 @@ section {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding: 200px 200px 165px 200px;
+  padding: 200px 200px 200px 165px;
 }
 
 .main h2 {
@@ -270,11 +270,15 @@ section {
     padding: 80px 20px;
   }
 
-  .main-content h2 {
-    font-size: 1em;
+  .main {
+    padding: 200px 200px 200px 40px;
   }
 
-  .main-content h3 {
+  .main h2 {
+    font-size: 1.2em;
+  }
+
+  .main h3 {
     font-size: 1.6em;
   }
 
@@ -290,11 +294,15 @@ section {
     font-size: 12px;
   }
 
-  .main-content h2 {
-    font-size: 0.8em;
+  .main {
+    padding: 200px 200px 200px 80px;
   }
 
-  .main-content h3 {
+  .main h2 {
+    font-size: 1.6em;
+  }
+
+  .main h3 {
     font-size: 1.4em;
   }
 }
@@ -302,6 +310,7 @@ section {
 @media (max-width:300px) {
   body {
     font-size: 10px;
-
   }
 }
+
+@media (min-width:641px) {}
